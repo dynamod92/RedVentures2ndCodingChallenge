@@ -2,11 +2,11 @@
 body {
 	background-color: #ffcc66;
 }
+
 .container {
 	margin: auto;
 	width: 1000px;
-	height: 1000px;
-	box-shadow: 10px 10px 5px #ffb436;
+	height: 800px;
 }
 .left-panel {
 	width: 290px;
@@ -33,41 +33,63 @@ body {
 	.ltext {
 		font-size: 22px;
 		color: gray;
-		padding: 20px;
+		padding-top: 20px;
 	}
 
 }
 .right-panel {
-	width: 500px;
-	height: 650px;
+	width: 550px;
+	height: 680px;
 	background-color: #ffffff;
 	display: inline-block;
 	margin-left: -4px;
+	vertical-align: top;
 	border-bottom-right-radius: 5px;
 	border-top-right-radius: 5px;
-
-	.rtitle {
-		font-size: 24px;
-		color: gray;
-		padding: 10px;
-	}
+	padding: 35px;
 
 }
-.checkbox {
-
+.title {
+	font-size: 24px;
+	color: gray;
+	padding: 20px;
+	min-width: 210px;
+	display: inline-block;
 }
+
 .balance{
 	font-size: 18px;
 	font-weight: bold;
 	color: #8393ca;
-	
+}
+.balanceg{
+	font-size: 18px;
+	font-weight: bold;
+	color: #66cc33;
 }
 .charge{
 	font-size: 18px;
 	font-weight: bold;
 	color: #333333;
 }
-.charg-desc{
-	font-size: 12px;
+.charge-desc{
+	font-size: 16px;
 	color: #999999;
+}
+.col{
+	display: inline-block;
+	padding: 15px;	
+}
+.col2{
+	min-width: 355px;
+	max-width: 355px;
+}
+.big-balance{
+	font-size: 40px;
+	font-weight: bold;
+	color: #444750;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 90px;
+	padding-top: 30px;
 }
